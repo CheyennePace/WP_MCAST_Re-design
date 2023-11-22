@@ -1,0 +1,41 @@
+[22-Nov-2023 09:08:41 UTC] PHP Warning:  Attempt to read property "title" on null in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[22-Nov-2023 09:16:07 UTC] PHP Warning:  Attempt to read property "title" on null in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[22-Nov-2023 09:38:47 UTC] PHP Warning:  require_once(lib/enqueue-assets.php): Failed to open stream: No such file or directory in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[22-Nov-2023 09:38:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/enqueue-assets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php:5
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-settings.php(611): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-config.php(103): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-load.php(50): require_once('D:\\BAs Interact...')
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\admin-ajax.php(22): require_once('D:\\BAs Interact...')
+#4 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[22-Nov-2023 09:38:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[22-Nov-2023 09:38:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[22-Nov-2023 09:40:44 UTC] PHP Warning:  require_once(lib/enqueue-assets.php): Failed to open stream: No such file or directory in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[22-Nov-2023 09:40:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/enqueue-assets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php:5
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-settings.php(611): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-config.php(103): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-load.php(50): require_once('D:\\BAs Interact...')
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\admin-ajax.php(22): require_once('D:\\BAs Interact...')
+#4 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[22-Nov-2023 09:40:59 UTC] PHP Warning:  require_once(lib/enqueue-assets.php): Failed to open stream: No such file or directory in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[22-Nov-2023 09:40:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/enqueue-assets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php:5
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-settings.php(611): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-config.php(103): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-load.php(50): require_once('D:\\BAs Interact...')
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\admin-ajax.php(22): require_once('D:\\BAs Interact...')
+#4 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[22-Nov-2023 09:41:01 UTC] PHP Warning:  require_once(lib/enqueue-assets.php): Failed to open stream: No such file or directory in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[22-Nov-2023 09:41:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/enqueue-assets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php:5
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-settings.php(611): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-config.php(103): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-load.php(50): require_once('D:\\BAs Interact...')
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\admin.php(34): require_once('D:\\BAs Interact...')
+#4 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\post-new.php(10): require_once('D:\\BAs Interact...')
+#5 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
