@@ -12,18 +12,34 @@
 <body <?php body_class(); ?>>
 
 <header>
-<div class="container-fluid">
-        
-        <nav class="navbar" style="    display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center;">
-            <!-- home_url is used to put the user straight into the homepage, can be found in wordpress  -->
-            <a style="width: 64%;" href="<?php echo esc_url(home_url('/')); ?>" >
+<?php  
+    $header_bg = get_theme_mod('custom_header_bg', '#000043');
+    $header_txt = get_theme_mod('custom_header_txt', '#FFF');
+    $header_logo = get_theme_mod ('custom_image');
+    ?>
+
+<div class="container-fluid" <?php echo $header_bg ?>>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            <a " href="<?php echo esc_url(home_url('/')); ?>" >
                     <!--to go to homepage -->
                     <!-- <?php esc_html(bloginfo('name')); ?> -->
-                    <img style="width:8%;" src="https://pngimg.com/d/nike_PNG12.png" alt=" <?php esc_html(bloginfo('name')); ?>Homepage Link">
-            </a>
-
-            <?php get_search_form(true); ?>
+                    <img style="width:50%;" src="<?php  echo $header_logo; ?>" alt=" <?php esc_html(bloginfo('name')); ?>Homepage Link">
+        </div>
+        <div class="col-4">
+        <nav id="-header-main-menu">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'main-menu'
+            ));
+            ?>
         </nav>
+        </div>
+        <div class="col-4"><?php get_search_form(true)?></div>
+    </div>
+    </div>  
+            
     </div> 
 </header>
 

@@ -39,3 +39,135 @@ Stack trace:
 #4 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\post-new.php(10): require_once('D:\\BAs Interact...')
 #5 {main}
   thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\functions.php on line 5
+[29-Nov-2023 07:44:27 UTC] PHP Fatal error:  Cannot redeclare custom_customize_register() (previously declared in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:2) in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 72
+[29-Nov-2023 07:44:28 UTC] PHP Fatal error:  Cannot redeclare custom_customize_register() (previously declared in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:2) in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 72
+[29-Nov-2023 07:45:11 UTC] PHP Fatal error:  Cannot redeclare custom_customize_register() (previously declared in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:2) in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 72
+[29-Nov-2023 07:45:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[29-Nov-2023 07:45:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[29-Nov-2023 07:45:14 UTC] PHP Fatal error:  Cannot redeclare custom_customize_register() (previously declared in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:2) in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 72
+[29-Nov-2023 07:45:15 UTC] PHP Fatal error:  Cannot redeclare custom_customize_register() (previously declared in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:2) in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 72
+[29-Nov-2023 07:45:17 UTC] PHP Fatal error:  Cannot redeclare custom_customize_register() (previously declared in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:2) in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 72
+[29-Nov-2023 07:45:18 UTC] PHP Fatal error:  Cannot redeclare custom_customize_register() (previously declared in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:2) in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 72
+[29-Nov-2023 08:16:23 UTC] PHP Warning:  Undefined variable $header_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\header.php on line 18
+[29-Nov-2023 08:16:26 UTC] PHP Warning:  Undefined variable $header_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\header.php on line 18
+[29-Nov-2023 08:16:26 UTC] PHP Warning:  Undefined variable $header_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\header.php on line 18
+[29-Nov-2023 08:22:09 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:10 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:12 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:12 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:18 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:18 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:31 UTC] PHP Warning:  Undefined variable $footer_class in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:31 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:31 UTC] PHP Warning:  Undefined variable $footer_class in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:31 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:34 UTC] PHP Warning:  Undefined variable $footer_class in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:34 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:35 UTC] PHP Warning:  Undefined variable $footer_class in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:22:35 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:10 UTC] PHP Warning:  Undefined variable $get_theme_mod in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:10 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:12 UTC] PHP Warning:  Undefined variable $get_theme_mod in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:12 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:14 UTC] PHP Warning:  Undefined variable $get_theme_mod in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:14 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:14 UTC] PHP Warning:  Undefined variable $get_theme_mod in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:23:14 UTC] PHP Warning:  Undefined variable $footer_text in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:03 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:03 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:04 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:04 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:06 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:06 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:06 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:06 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:09 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:09 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:09 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:09 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:31 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:31 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:32 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:32 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:34 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:34 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:34 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:25:34 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:07 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:07 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:08 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:08 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:10 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:10 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:11 UTC] PHP Warning:  Undefined variable $custom_footer_bg in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:11 UTC] PHP Warning:  Undefined variable $custom_theme_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "custom_footer_bg" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php:6
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template.php(790): require_once()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template.php(725): load_template('D:\\BAs Interact...', true, Array)
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\home.php(12): get_footer()
+#4 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include('D:\\BAs Interact...')
+#5 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#6 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#7 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:26:27 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "custom_footer_bg" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php:6
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template.php(790): require_once()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template.php(725): load_template('D:\\BAs Interact...', true, Array)
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\home.php(12): get_footer()
+#4 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include('D:\\BAs Interact...')
+#5 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#6 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#7 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:30:34 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:30:35 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:30:37 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:30:37 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:30:46 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:30:46 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 6
+[29-Nov-2023 08:48:54 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:48:56 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:48:56 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:48:59 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:48:59 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:48:59 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:49:48 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:49:50 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 08:49:50 UTC] PHP Warning:  Undefined variable $footer_txt in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\footer.php on line 9
+[29-Nov-2023 09:00:50 UTC] PHP Parse error:  Unclosed '{' on line 57 does not match ')' in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 75
+[29-Nov-2023 09:00:54 UTC] PHP Parse error:  Unclosed '{' on line 57 does not match ')' in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 75
+[29-Nov-2023 09:17:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_img_Control" not found in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:91
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(324): header_customize_register(Object(WP_Customize_Manager))
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-customize-manager.php(942): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-settings.php(665): do_action('wp_loaded')
+#8 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-config.php(103): require_once('D:\\BAs Interact...')
+#9 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-load.php(50): require_once('D:\\BAs Interact...')
+#10 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\admin-ajax.php(22): require_once('D:\\BAs Interact...')
+#11 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 91
+[29-Nov-2023 09:17:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_img_Control" not found in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php:91
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(324): header_customize_register(Object(WP_Customize_Manager))
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-customize-manager.php(942): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(324): WP_Customize_Manager->wp_loaded('')
+#5 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-settings.php(665): do_action('wp_loaded')
+#8 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-config.php(103): require_once('D:\\BAs Interact...')
+#9 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-load.php(50): require_once('D:\\BAs Interact...')
+#10 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\admin.php(34): require_once('D:\\BAs Interact...')
+#11 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-admin\customize.php(13): require_once('D:\\BAs Interact...')
+#12 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\lib\customize.php on line 91

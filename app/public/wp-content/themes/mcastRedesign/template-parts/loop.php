@@ -1,4 +1,4 @@
-		<div class="col-8">
+		<div >
         <h1><?php echo $args['section_title']; ?></h1>
 			<?php if(have_posts()) : while (have_posts()) : the_post(); ?> <!-- have_posts() checks if there is posts to show / : is the sameas {} -->
 

@@ -1,19 +1,13 @@
-<?php  
-  $footer_bg = get_theme_mod('custom_footer_bg','dark');
-  $footer_class = "bg-".$footer_bg;
 
-  $footer_text= "text-light";
-  if($footer_bg == 'light'){
-    $footer_text="text-dark";
-  }
+<?php
+$footer_bg = get_theme_mod('custom_theme_footer_bg', '#FFFFFF');
+$footer_txt = get_theme_mod('custom_theme_txt', '#000000');
 ?>
-
-<div class="container-fluid <?php echo $footer_class." ". $footer_text; ?>">
-  <div class="row">
+  <div class="row" style="background-color: <?php echo $footer_bg; ?>;color:<?php echo $footer_txt; ?>; ">
 
 <!--automatic footer user will have control on the amount of columns-->
 <?php
-  $footer_layout = get_theme_mod('custom_footer_widget_count','2');
+  $footer_layout = get_theme_mod('custom_footer_widget_count','3');
   $sidebars_active = false;
 
   for($i=0; $i<$footer_layout; $i++){
