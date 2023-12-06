@@ -18,3 +18,17 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 firstTheme WordPress Theme, (C) 2020 WordPress.org
 firstTheme is distributed under the terms of the GNU GPL.
 */
+
+.menu{
+    list-style-type: none;
+}
+
+.sub-menu{
+    list-style-type: none;
+}
+ul.sub-menu{ display: none; }
+
+ul.menu li.menu-item-has-children:hover > ul.sub-menu{
+    display: block;
+}
+
