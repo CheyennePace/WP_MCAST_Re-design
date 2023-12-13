@@ -21,14 +21,14 @@
 <div class="container-fluid" <?php echo $header_bg ?>>
     <div class="container-fluid">
     <div class="row">
-        <div class="col-4">
+        <div class="col-5">
             <a " href="<?php echo esc_url(home_url('/')); ?>" >
                     <!--to go to homepage -->
                     <!-- <?php esc_html(bloginfo('name')); ?> -->
                     <img style="width:50%;" src="<?php  echo $header_logo; ?>" alt=" <?php esc_html(bloginfo('name')); ?>Homepage Link">
         </div>
-        <div class="col-4">
-        <nav id="-header-main-menu">
+        <div class="mid-content">
+        <nav id="header-main-menu">
             <?php
             wp_nav_menu(array(
                 'theme_location' => 'main-menu'
@@ -36,7 +36,7 @@
             ?>
         </nav>
         </div>
-        <div class="col-4"><?php get_search_form(true)?></div>
+        <div class="col-5" id="search"><?php get_search_form(true)?></div>
     </div>
     </div>  
             

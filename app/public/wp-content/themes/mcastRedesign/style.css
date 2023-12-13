@@ -19,16 +19,41 @@ firstTheme WordPress Theme, (C) 2020 WordPress.org
 firstTheme is distributed under the terms of the GNU GPL.
 */
 
+/*HEADER*/
 .menu{
     list-style-type: none;
+    display: flex;
+    
 }
 
 .sub-menu{
     list-style-type: none;
 }
+
+#menu-item-76{
+    padding-right: 27px;
+}
+
+.mid-content {
+    display: flex;
+    align-items: center;
+}
+
+#header-main-menu{
+    display: flex;
+    align-items: center;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*to hide sub categories in header*/
 ul.sub-menu{ display: none; }
 
 ul.menu li.menu-item-has-children:hover > ul.sub-menu{
     display: block;
 }
+
 
