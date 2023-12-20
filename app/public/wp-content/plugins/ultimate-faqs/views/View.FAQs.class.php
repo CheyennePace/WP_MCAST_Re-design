@@ -388,8 +388,8 @@ class ewdufaqViewFAQs extends ewdufaqView {
 
 		$args = array(
 			'taxonomy'		=> EWD_UFAQ_FAQ_CATEGORY_TAXONOMY,
-			'orderby'		=> $this->category_orderby,
-			'order'			=> $this->category_order,
+			'orderby'		=> ! empty( $this->category_orderby ) ? $this->category_orderby : '',
+			'order'			=> ! empty( $this->category_order ) ? $this->category_order : '',
 			'hide_empty'	=> false
 		);
 

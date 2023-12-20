@@ -54,6 +54,10 @@ ul.sub-menu{ display: none; }
 
 ul.menu li.menu-item-has-children:hover > ul.sub-menu{
     display: block;
+    position: absolute;
+    background-color: #000043;
+    color: white;
+    z-index: 1;
 }
 
 

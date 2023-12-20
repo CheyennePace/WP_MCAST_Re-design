@@ -388,6 +388,18 @@ var LayoutBlockEdit = /*#__PURE__*/function (_Component) {
           savePost = _this$props2.savePost,
           setLaunching = _this$props2.setLaunching;
       setLaunching(true);
+      /**
+       * WP 6.4 will NOT save a post with no title.
+       */
+
+      var title = wp.data.select("core/editor").getEditedPostAttribute('title');
+
+      if (!title) {
+        wp.data.dispatch('core/editor').editPost({
+          title: wp.i18n.__('(no title)')
+        });
+      }
+
       savePost().then(function () {
         setTimeout(function () {
           window.top.location.href = builder.access ? urls.edit : urls.view;
@@ -830,6 +842,18 @@ var BuilderMoreMenuItem = /*#__PURE__*/function (_Component) {
           savePost = _this$props2.savePost,
           setLaunching = _this$props2.setLaunching;
       setLaunching(true);
+      /**
+       * WP 6.4 will NOT save a post with no title.
+       */
+
+      var title = wp.data.select("core/editor").getEditedPostAttribute('title');
+
+      if (!title) {
+        wp.data.dispatch('core/editor').editPost({
+          title: wp.i18n.__('(no title)')
+        });
+      }
+
       savePost().then(function () {
         setTimeout(function () {
           window.location.href = builder.access ? urls.edit : urls.view;

@@ -23,7 +23,8 @@ class ACOPLW_Badge
     public $product_lists = false;
     public $product_schedule_onsale = false;
     public $products_on_sale = false;
-    public $customStyles = false;
+    // public $customStyles = false;
+    public $customStyles = [];
     public $acoplwBadges = [];
     public $pScheduleStatus = [];
     private $_active = false;
@@ -460,7 +461,7 @@ class ACOPLW_Badge
             $textcss    .= ( $badgeStyle == 'bssix' ) ? ( "width:" . $bsSixWidth . "px;top:" . $bsSixTop . "px" ) : '';
 
             $css = "opacity:".($opacity / 100).";width:".$badgeWidth."px;font-size:".$fontSize."px;line-height:".$lineHeight."px;";
-            $css .= $fontWeight == 'bold' ? "font-weight: 700;" : ( $fontWeight == 'semi_bold' ? "font-weight: 600;" : "font-weight: 400" );
+            $css .= $fontWeight == 'bold' ? "font-weight: 700;" : ( $fontWeight == 'semi_bold' ? "font-weight: 600;" : "font-weight: 400;" );
             $css .= $zIndex ? ( "z-index:".$zIndex.";" ) : '';
             $css .= ( ( $badgeStyle == 'bsone' || $badgeStyle == 'bsfifteen' )  && $badgeHeight ) ? ( "height:".$badgeHeight."px;" ) : ( ( in_array ( $badgeStyle, $badgeHW ) && $badgeWidth ) ? ( "height:".$badgeWidth."px;" ) : '' );
             $css .= ( $badgeStyle == 'bsfifteen' ) ? ( "width:100%;" ) : '';
@@ -840,19 +841,21 @@ class ACOPLW_Badge
 
         $customPLStatus         = array_key_exists ( 'custom_pl', $preview_options ) ? $preview_options['custom_pl'] : false;
         $customPL               = array_key_exists ( 'customPL', $preview_options ) ? $preview_options['customPL'] : [];
-        $setPL                  = false;
+
         if ( $productsOnSale == true ) {
 
             return $this->check_product_on_sale( $productID );
 
         } else if ( $outOfStock == true ) {
 
-            if ( $setPL ) {
-                $setPLFlag = $this->check_product_stock( $productID );
-            } else {
-                return $this->check_product_stock( $productID );
-            }
+            // if ( $setPL ) {
+            //     $setPLFlag = $this->check_product_stock( $productID );
+            // } else {
+            //     return $this->check_product_stock( $productID );
+            // }
 
+            return $this->check_product_stock( $productID );
+            
         } else { 
             
             if ( ( '' == $productListSelected || 0 == $productListSelected  ) && !$customPLStatus ) {

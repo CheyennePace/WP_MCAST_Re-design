@@ -64,6 +64,11 @@
     "fallback": "sans-serif"
   }
 }, {
+  "Agbalumo": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
   "Agdasima": {
     "variants": ["regular", "700"],
     "fallback": "sans-serif"
@@ -940,7 +945,7 @@
   }
 }, {
   "BioRhyme": {
-    "variants": ["200", "300", "regular", "700", "800"],
+    "variants": ["200", "300", "regular", "500", "600", "700", "800"],
     "fallback": "serif"
   }
 }, {
@@ -2689,6 +2694,16 @@
     "fallback": "serif"
   }
 }, {
+  "Hedvig Letters Sans": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hedvig Letters Serif": {
+    "variants": ["regular"],
+    "fallback": "serif"
+  }
+}, {
   "Heebo": {
     "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
     "fallback": "sans-serif"
@@ -3204,6 +3219,11 @@
     "fallback": "sans-serif"
   }
 }, {
+  "Kay Pho Du": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
   "Kdam Thmor Pro": {
     "variants": ["regular"],
     "fallback": "sans-serif"
@@ -3592,6 +3612,11 @@
   "Linden Hill": {
     "variants": ["regular", "italic"],
     "fallback": "serif"
+  }
+}, {
+  "Linefont": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
   }
 }, {
   "Lisu Bosa": {
@@ -4330,8 +4355,8 @@
   }
 }, {
   "Narnoor": {
-    "variants": ["regular"],
-    "fallback": "sans-serif"
+    "variants": ["regular", "500", "600", "700", "800"],
+    "fallback": "serif"
   }
 }, {
   "Neonderthaw": {
@@ -4460,7 +4485,7 @@
   }
 }, {
   "Noto Sans": {
-    "variants": ["100", "100italic", "200", "200italic", "300", "300italic", "regular", "italic", "500", "500italic", "600", "600italic", "700", "700italic", "800", "800italic", "900", "900italic"],
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
     "fallback": "sans-serif"
   }
 }, {
@@ -4739,6 +4764,11 @@
     "fallback": "sans-serif"
   }
 }, {
+  "Noto Sans Kawi": {
+    "variants": ["regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
   "Noto Sans Kayah Li": {
     "variants": ["regular", "500", "600", "700"],
     "fallback": "sans-serif"
@@ -4886,7 +4916,7 @@
 }, {
   "Noto Sans Mono": {
     "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-    "fallback": "monospace"
+    "fallback": "sans-serif"
   }
 }, {
   "Noto Sans Mro": {
@@ -5376,6 +5406,11 @@
 }, {
   "Noto Serif NP Hmong": {
     "variants": ["regular", "500", "600", "700"],
+    "fallback": "serif"
+  }
+}, {
+  "Noto Serif Old Uyghur": {
+    "variants": ["regular"],
     "fallback": "serif"
   }
 }, {
@@ -5884,6 +5919,11 @@
     "fallback": "serif"
   }
 }, {
+  "Playpen Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
+    "fallback": "cursive"
+  }
+}, {
   "Plus Jakarta Sans": {
     "variants": ["200", "300", "regular", "500", "600", "700", "800", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic"],
     "fallback": "sans-serif"
@@ -6280,7 +6320,7 @@
   }
 }, {
   "Roboto Condensed": {
-    "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
     "fallback": "sans-serif"
   }
 }, {
@@ -6927,6 +6967,11 @@
   "Solway": {
     "variants": ["300", "regular", "500", "700", "800"],
     "fallback": "serif"
+  }
+}, {
+  "Sometype Mono": {
+    "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+    "fallback": "monospace"
   }
 }, {
   "Song Myung": {

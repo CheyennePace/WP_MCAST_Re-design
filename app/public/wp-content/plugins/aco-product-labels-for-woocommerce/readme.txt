@@ -5,8 +5,8 @@ Contributors: acowebs
 Donate link:
 Tags: Product Labels For WooCommerce, WooCommerce Labels, WooCommerce Badges, WooCommerce Sale Badges, Badges, Sale Badges
 Requires at least: 4.9
-Tested up to: 6.3
-Stable tag: 1.5.2
+Tested up to: 6.4
+Stable tag: 1.5.3
 
 == Description ==
 WooCommerce Product labels (WooCommerce Sale Badges) helps to create product labels or product badges easily. This plugin provides an easy to use user interface to create custom product labels for woocommerce products. You can add labels to a set of selected products / categories or can replace default Woocommerce On Sale badges.
@@ -158,6 +158,9 @@ Yes, with Acowebs product labels for the Woocommerce plugin, you can set multipl
 
 
 == Changelog ==
+= 1.5.3 =
+* Support for WordPress 6.4 and WooCommerce 8.4
+* [Bug Fix]: PHP Warning
 = 1.5.2 =
 * Added support for category labels
 * Added font weight

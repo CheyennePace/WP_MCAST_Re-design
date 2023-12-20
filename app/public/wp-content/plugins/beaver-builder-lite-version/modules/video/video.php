@@ -276,7 +276,7 @@ class FLVideoModule extends FLBuilderModule {
 			$markup .= sprintf( '<meta itemprop="name" content="%s" />', esc_attr( $settings->name ) );
 		}
 		if ( ! empty( $settings->up_date ) ) {
-			$markup .= sprintf( '<meta itemprop="uploadDate" content="%s" />', esc_attr( $settings->up_date ) );
+			$markup .= sprintf( '<meta itemprop="uploadDate" content="%s" />', esc_attr( gmdate( DATE_ATOM, strtotime( $settings->up_date ) ) ) );
 		}
 		if ( ! empty( $settings->thumbnail_src ) ) {
 			$markup .= sprintf( '<meta itemprop="thumbnailUrl" content="%s" />', $settings->thumbnail_src );

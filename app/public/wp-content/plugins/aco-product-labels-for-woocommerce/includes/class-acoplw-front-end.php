@@ -62,7 +62,7 @@ class ACOPLW_Front_End
         $this->_version     = $version;
         $this->_token       = ACOPLW_TOKEN;
         $this->badge        = $badge;
-        $this->hookCount    = 0;
+        // $this->hookCount    = 0;
         add_action('init', array($this, 'register_acoplw_post_types'));
 
         if ( $this->acoplw_check_woocommerce_active() ) {
