@@ -13,19 +13,26 @@
 
 <header>
 <?php  
-    $header_bg = get_theme_mod('custom_header_bg', '#000043');
-    $header_txt = get_theme_mod('custom_header_txt', '#FFF');
+    $header_bg = get_theme_mod('custom_header_bg', '#F5F5F5');
+    $header_txt = get_theme_mod('custom_header_txt', '#000045');
     $header_logo = get_theme_mod ('custom_image');
     ?>
 
 <div class="container-fluid" <?php echo $header_bg ?>>
+
     <div class="container-fluid">
-    <div class="row">
-        <div class="col-5">
-            <a " href="<?php echo esc_url(home_url('/')); ?>" >
+    <div class = "top-bar">
+            <a class="li-topbar" href="https://intranet.mcast.edu.mt/">Staff Portal</a>
+            <a class="li-topbar" href="https://mcast.classter.com/">Student Portal</a> 
+      
+    </div>
+    <div class="row" style="background-color: <?php echo $header_bg; ?>;> ">
+        
+        <div class="col-5" >
+            <a " href="<?php echo esc_url(home_url('/')); ?>" style="color:<?php echo $header_txt; ?>"  >
                     <!--to go to homepage -->
                     <!-- <?php esc_html(bloginfo('name')); ?> -->
-                    <img style="width:50%;" src="<?php  echo $header_logo; ?>" alt=" <?php esc_html(bloginfo('name')); ?>Homepage Link">
+                    <img style="width:30%;" src="<?php  echo $header_logo; ?>" alt=" <?php esc_html(bloginfo('name')); ?>Homepage Link">
         </div>
         <div class="mid-content">
         <nav id="header-main-menu">

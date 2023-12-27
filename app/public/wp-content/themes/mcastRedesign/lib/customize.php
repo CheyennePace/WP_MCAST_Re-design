@@ -33,7 +33,7 @@
             );
 
             $wp_customize->add_setting('custom_footer_widget_count',array(
-                'default' => 2,
+                'default' => 3,
                 'sanatize_callback'=>'sanatize_text_field'
             ));
 
@@ -61,7 +61,7 @@
         ));
 
         $wp_customize->add_setting('custom_header_bg', array(
-            'default' =>'#000043',
+            'default' =>'#F5F5F5',
         ));
 
         $wp_customize->add_control(
@@ -76,7 +76,7 @@
         
          //Text
          $wp_customize->add_setting('custom_header_txt', array(
-            'default'=> '#FFF',
+            'default'=> '#000043',
         ));
 
         $wp_customize->add_control(
