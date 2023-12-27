@@ -60,4 +60,12 @@ ul.menu li.menu-item-has-children:hover > ul.sub-menu{
     z-index: 1;
 }
 
+/* content for all body (all pages) */
+.container-body {
+    margin-top: 2%;
+    margin-left: 11%;
+    width: fit-content;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
 
