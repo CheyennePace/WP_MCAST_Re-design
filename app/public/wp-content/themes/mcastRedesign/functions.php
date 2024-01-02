@@ -39,4 +39,4 @@ function firstexample_postsorderasc($query){
 
 add_action('pre_get_posts', 'firstexample_postsorderasc');
 
-?>
+

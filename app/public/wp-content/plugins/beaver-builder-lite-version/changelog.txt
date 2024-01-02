@@ -1,3 +1,9 @@
+<h4>2.7.4.2 - 12/20/2023</h4>
+<strong>Hotfix</strong>
+<ul>
+	<li>Fix node CSS/JS code check applying to the HTML module(#3066)</li>
+</ul>
+
 <h4>2.7.4.1 - 12/15/2023</h4>
 <strong>Hotfix</strong>
 <ul>

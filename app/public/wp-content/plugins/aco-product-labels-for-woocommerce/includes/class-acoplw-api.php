@@ -427,7 +427,7 @@ class ACOPLW_Api
         $checkML            = call_user_func ( array ( new ACOPLW_ML(), 'is_default_lan' ), '' );
         $currentLang        = !$checkML ? call_user_func ( array ( new ACOPLW_ML(), 'current_language' ), '' ) : '';
         $label_options      = get_post_meta( $id, 'badge_label_options', true ) ? get_post_meta( $id, 'badge_label_options', true ) : [];
-        $dataBadgeLabel     = isset ( $data['badgeLabel'] ) ? $data['badgeLabel'] : '';
+        $dataBadgeLabel     = isset ( $data['badgeLabel'] ) ? wp_strip_all_tags($data['badgeLabel']) : '';
         $langOptions        = array_key_exists ( 'badgeLabelLang', $label_options ) ? $label_options['badgeLabelLang'] : [];
 
         if ( $currentLang ) {

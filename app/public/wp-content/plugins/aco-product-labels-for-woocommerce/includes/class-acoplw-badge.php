@@ -1221,7 +1221,7 @@ class ACOPLW_Badge
         if ( $styles ) {
 
             $result = '<style>.products .acoplw-badge-icon{visibility:visible;} ';
-            $result .= $wc_badge ? '.onsale{display:none !important;} ' : '';
+            $result .= $wc_badge ? '.onsale,.ast-onsale-card{display:none !important;} ' : '';
             foreach ( $styles as $style ) {
                 $result = $result.$style;
             }
@@ -1231,7 +1231,7 @@ class ACOPLW_Badge
         } else if ( $wc_badge ) {
 
             $result = '<style>.products .acoplw-badge-icon{visibility:visible;} ';
-            $result .= $wc_badge ? '.onsale{display:none !important;} ' : '';
+            $result .= $wc_badge ? '.onsale,.ast-onsale-card{display:none !important;} ' : '';
             $result .= '</style>';
             echo $result;
 

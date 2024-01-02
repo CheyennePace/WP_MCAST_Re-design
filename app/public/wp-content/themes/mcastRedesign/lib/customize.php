@@ -103,7 +103,28 @@
         
     }
 
+
+ //banner
+ function banner_customize_register($wp_customize){
+    $wp_customize -> add_section('custom_banner_options', array(
+        'title' => 'Banner Images Options',
+        'description' => 'You can change the image inside the banner here'
+    ));
+
+    $wp_customize->add_setting('custom_image_banner', array(
+        'default'=> '',
+    ));
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control($wp_customize, 'custom_image_banner', array(
+            'label' => 'Choose Image for banner',
+            'section' => 'custom_banner_options',
+            'settings' => 'custom_image_banner'
+        ))
+    );
+}
+
     add_action('customize_register', 'custom_customize_register');
     add_action('customize_register', 'header_customize_register');
+    add_action('customize_register', 'banner_customize_register');
 
 ?>

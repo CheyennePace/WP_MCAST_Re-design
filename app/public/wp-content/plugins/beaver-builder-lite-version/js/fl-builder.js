@@ -7764,7 +7764,7 @@
 					saveBtn.addClass( 'fl-builder-settings-error' );
 					saveBtn.on( 'click', FLBuilder._showCodeFieldCriticalError );
 				}
-				if ( hasError && settings.find( '#fl-builder-settings-section-bb_js_code' ).length > 0 ) {
+				if ( hasError && settings.find( '#fl-builder-settings-section-bb_js_code' ).length > 0 && 'fl-field-bb_js_code' === field.closest( '.fl-field' ).attr('ID') ) {
 					saveBtn.addClass( 'fl-builder-settings-error' );
 					saveBtn.on( 'click', FLBuilder._showCodeFieldCriticalError );
 				}
