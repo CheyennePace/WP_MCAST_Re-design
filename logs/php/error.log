@@ -260,3 +260,38 @@ Stack trace:
 [02-Jan-2024 21:21:01 UTC] PHP Warning:  Attempt to read property "ID" on int in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\plugins\ml-slider\inc\slide\metaslide.class.php on line 606
 [02-Jan-2024 21:21:01 UTC] PHP Warning:  Attempt to read property "ID" on int in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\plugins\ml-slider\inc\slide\metaslide.class.php on line 606
 [02-Jan-2024 21:21:01 UTC] PHP Warning:  Attempt to read property "ID" on int in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\plugins\ml-slider\inc\slide\metaslide.class.php on line 606
+[03-Jan-2024 09:46:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "banner_img_lib" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php:8
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#3 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php on line 8
+[03-Jan-2024 09:47:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "banner_img_lib" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php:8
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#3 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php on line 8
+[03-Jan-2024 09:47:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "banner_img_lib" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php:8
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#3 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php on line 8
+[03-Jan-2024 09:47:21 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "banner_img_lib" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php:8
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#3 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php on line 8
+[03-Jan-2024 09:47:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "banner_img_lib" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php:8
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#3 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\page-library.php on line 8
