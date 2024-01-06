@@ -98,3 +98,7 @@ ul.menu li.menu-item-has-children:hover > ul.sub-menu{
     width: 100%;
   
 }
+
+.prod_img{
+    border-radius: 8%;
+}

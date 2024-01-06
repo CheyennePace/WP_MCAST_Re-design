@@ -2,9 +2,12 @@
 
 <?php $banner_img_1 = get_theme_mod('custom_image_banner_1'); ?>
 <?php $banner_img_2 = get_theme_mod('custom_image_banner_2'); ?>
-<?php $banner_img_3 = get_theme_mod('custom_image_banner_3'); ?>
+<?php $prodmenu_img1= get_theme_mod('custom_image_prodmenu1'); ?>
+<?php $prodmenu_img2= get_theme_mod('custom_image_prodmenu2'); ?>
+<?php $prodmenu_img3= get_theme_mod('custom_image_prodmenu3'); ?>
+<?php $prodmenu_img4= get_theme_mod('custom_image_prodmenu4'); ?>
 
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -32,9 +35,28 @@
 		</div>
 </div>
 
+<!-- custom imgs for prod menu -->
+
+
+<div class="container" style="display: inline;">
+  <div class="row" style ="   padding: 4%;">
+    <div class="" >
+	<img class="prod_img" src="<?php  echo $prodmenu_img1;?>"">
+    </div>
+    <div class="">
+	<img class="prod_img" src="<?php  echo $prodmenu_img2;?>"">
+    </div>
+    <div class="">
+	<img class="prod_img" src="<?php  echo $prodmenu_img3;?>"">
+    </div>
+	<div class="">
+	<img class="prod_img" src="<?php  echo $prodmenu_img4;?>"">
+    </div>
+  </div>
+</div>
+
 <div class="container">
 	<div class="row">
-	
 		<!-- The Loop -->
 		<?php 
 			$args = array('section_title' => '');

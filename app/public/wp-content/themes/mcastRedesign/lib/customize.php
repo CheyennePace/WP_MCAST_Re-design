@@ -163,9 +163,61 @@ function lib_img_customize_register($wp_customize){
         ))
     );
 }
+
+//homepage prod menu imgs
+function hp_prodmenu_customize_register($wp_customize){
+    $wp_customize -> add_section('custom_image_prodmenu', array(
+        'title' => 'Product menu images input',
+        'description' => 'You can change the image for the product menu'
+    ));
+
+    $wp_customize->add_setting('custom_image_prodmenu1', array(
+        'default'=> '',
+    ));
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control($wp_customize, 'custom_image_prodmenu1', array(
+            'label' => 'Choose the first image for your product menu',
+            'section' => 'custom_image_prodmenu',
+            'settings' => 'custom_image_prodmenu1'
+        ))
+    );
+    $wp_customize->add_setting('custom_image_prodmenu2', array(
+        'default'=> '',
+    ));
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control($wp_customize, 'custom_image_prodmenu2', array(
+            'label' => 'Choose the second image for your product menu',
+            'section' => 'custom_image_prodmenu',
+            'settings' => 'custom_image_prodmenu2'
+        ))
+    );
+    $wp_customize->add_setting('custom_image_prodmenu3', array(
+        'default'=> '',
+    ));
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control($wp_customize, 'custom_image_prodmenu3', array(
+            'label' => 'Choose the third image for your product menu',
+            'section' => 'custom_image_prodmenu',
+            'settings' => 'custom_image_prodmenu3'
+        ))
+    );
+    $wp_customize->add_setting('custom_image_prodmenu4', array(
+        'default'=> '',
+    ));
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control($wp_customize, 'custom_image_prodmenu4', array(
+            'label' => 'Choose the fourth image for your product menu',
+            'section' => 'custom_image_prodmenu',
+            'settings' => 'custom_image_prodmenu4'
+        ))
+    );
+}
+
+
+
     add_action('customize_register', 'custom_customize_register');
     add_action('customize_register', 'header_customize_register');
     add_action('customize_register', 'banner_customize_register');
     add_action('customize_register', 'lib_img_customize_register');
-
+    add_action('customize_register', 'hp_prodmenu_customize_register');
 ?>
