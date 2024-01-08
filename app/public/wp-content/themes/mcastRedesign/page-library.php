@@ -11,7 +11,7 @@
 <!--custom search-->
 <div id="book-search">
     <form action="<?php echo esc_url(home_url('/library')); ?>" id="searchform" method="get">
-        <div>
+        <div style = "display: inline-flex; ">
             <label for="search" class="screen-reader-text">Search for:</label>
             <input type="text" id="search" name="search" value="" />
             <input type="hidden" name="post_type" value="book" /> 

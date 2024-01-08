@@ -35,26 +35,6 @@
 		</div>
 </div>
 
-<!-- custom imgs for prod menu -->
-
-
-<div class="container" style="display: inline;">
-  <div class="row" style ="   padding: 4%;">
-    <div class="" >
-	<img class="prod_img" src="<?php  echo $prodmenu_img1;?>"">
-    </div>
-    <div class="">
-	<img class="prod_img" src="<?php  echo $prodmenu_img2;?>"">
-    </div>
-    <div class="">
-	<img class="prod_img" src="<?php  echo $prodmenu_img3;?>"">
-    </div>
-	<div class="">
-	<img class="prod_img" src="<?php  echo $prodmenu_img4;?>"">
-    </div>
-  </div>
-</div>
-
 <div class="container">
 	<div class="row">
 		<!-- The Loop -->

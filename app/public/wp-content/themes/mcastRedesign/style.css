@@ -102,3 +102,12 @@ ul.menu li.menu-item-has-children:hover > ul.sub-menu{
 .prod_img{
     border-radius: 8%;
 }
+
+#book-search{
+    background-color: #acacac;
+    padding-top: 2%;
+    padding-bottom:2%;
+    display: flex;
+    justify-content: center;
+    
+}
