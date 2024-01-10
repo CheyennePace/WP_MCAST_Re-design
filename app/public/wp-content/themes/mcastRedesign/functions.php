@@ -1,6 +1,6 @@
 <?php
 
-show_admin_bar(true);
+show_admin_bar(false);
 
 require_once("lib/enqueue-assets.php");
 require_once("lib/navigation.php");
@@ -22,13 +22,7 @@ add_filter('excerpt_length', 'firstexample_excerptlength');
 function firstexample_themefooter(){
     $footer_bg = get_theme_mod('custom_theme_footer_bg', '#FFFFFF');
     $footer_text = get_theme_mod('custom_theme_txt', '#000000');
-    echo "<div class='container-fluid' style='background-color:{$footer_bg};'>
-            <div class='row'>
-                <div class='col text-center' style='color: {$footer_text}'>
-                    <p>© Copyright MCAST 2023</p>
-                </div>
-            </div>
-          </div>";
+    
 }
 
 add_action('get_footer','firstexample_themefooter');
