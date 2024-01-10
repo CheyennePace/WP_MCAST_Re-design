@@ -111,3 +111,15 @@ ul.menu li.menu-item-has-children:hover > ul.sub-menu{
     justify-content: center;
     
 }
+
+
+/*Search field*/
+
+
+.rounded {
+    border-radius: 100px !important;
+}
+
+figure.rounded img{
+    border-radius: inherit;
+}

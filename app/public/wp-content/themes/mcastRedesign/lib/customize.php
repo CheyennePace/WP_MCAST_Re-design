@@ -52,6 +52,44 @@
         
     }
 
+    //footer top
+    function footertop_customize_register($wp_customize){
+    
+            //Text
+            $wp_customize->add_setting('custom_theme_txt', array(
+                'default'=> '#FFF',
+            ));
+
+            $wp_customize -> add_control(
+                new WP_Customize_Color_Control($wp_customize, 'custom_theme_txt', array(
+                    'label' => 'Choose Text Color',
+                    'section' => 'custom_footer_options',
+                    'settings' => 'custom_theme_txt'
+    
+                ))
+            );
+
+            $wp_customize->add_setting('custom_footer_row_count',array(
+                'default' => 1,
+                'sanatize_callback'=>'sanatize_text_field'
+            ));
+
+            $wp_customize->add_control('custom_footer_row_count',array(
+                'type'=>'select',
+                'label'=>'Footer Rows',
+                'choices'=>array(
+                    '1'=>'1 Row',
+                    '2'=>'2 Row',
+                    
+                ),
+                'section'=>'custom_footer_options'
+                
+            ));
+        
+    }
+
+
+
 
     //header
     function header_customize_register($wp_customize){
@@ -170,5 +208,6 @@ function lib_img_customize_register($wp_customize){
     add_action('customize_register', 'header_customize_register');
     add_action('customize_register', 'banner_customize_register');
     add_action('customize_register', 'lib_img_customize_register');
+    add_action('customize_register', 'footertop_customize_register');
     
 ?>

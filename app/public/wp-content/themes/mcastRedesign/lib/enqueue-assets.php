@@ -2,6 +2,14 @@
 
 function firstexample_assets(){
     wp_enqueue_style(
+        'firstexample_bootstrap_stylesheet',
+        get_template_directory_uri().'/assets/css/bootstrap.css',
+        array(),
+        '1.0.0',
+        'all'
+    );
+    
+    wp_enqueue_style(
         'firstexample_stylesheet',
         get_template_directory_uri().'/style.css',
         array(),
@@ -17,13 +25,7 @@ function firstexample_assets(){
         'all'
     );
 
-    wp_enqueue_style(
-        'firstexample_bootstrap_stylesheet',
-        get_template_directory_uri().'/assets/css/bootstrap.css',
-        array(),
-        '1.0.0',
-        'all'
-    );
+    
 
     wp_enqueue_script(
         'firstexample_bootstrap_script',

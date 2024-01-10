@@ -52,7 +52,7 @@
             <div class="seperator-icon"> 
             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1.47 -1.47 17.65 17.65" xml:space="preserve" width="64px" height="64px" fill="#000000" stroke="#000000" stroke-width="0.00014707"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.23531200000000002"></g><g id="SVGRepo_iconCarrier"> <g> <rect x="6.275" y="0" style="fill:#808080;" width="0.5px" height="10px" border-radius = "2%"></rect> </g> </g></svg>            </div>
             
-            <div id="search">
+            <div id="search" >
                 <?php get_search_form(true)?>
             </div>
             

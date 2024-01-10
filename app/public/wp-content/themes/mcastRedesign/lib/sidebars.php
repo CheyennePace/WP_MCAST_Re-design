@@ -15,6 +15,14 @@
             'before_widget' => '</section id="%1$s" class="sidebar-widget">',
             'after_widget' => '</section>',
         ));  
+
+        register_sidebar(array(
+            'id' => 'top-footer-sidebar',
+            'name' => 'Top Footer Sidebar',
+            'description' => 'Top Footer',
+            'before_widget' => '</section id="%1$s" class="sidebar-widget">',
+            'after_widget' => '</section>',
+        ));  
      }
 
      function custom_footer_sidebars(){
