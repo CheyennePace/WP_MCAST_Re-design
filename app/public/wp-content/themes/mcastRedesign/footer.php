@@ -3,32 +3,32 @@
 $footer_bg = get_theme_mod('custom_theme_footer_bg', '#FFFFFF');
 $footer_txt = get_theme_mod('custom_theme_txt', '#000000');
 ?>
-  <div class="row" style="background-color: <?php echo $footer_bg; ?>;color:<?php echo $footer_txt; ?>; ">
+  <div class="row" id= "footer-top" style="background-color: <?php echo $footer_bg; ?>;color:<?php echo $footer_txt; ?>; ">
 
-<!--automatic footer user will have control on the amount of columns-->
-<?php
-  $footer_rows = get_theme_mod('custom_footer_row_count','1');
-  // if footer_rows = 2
-  if($footer_rows == 2){
-  
-    // build html structure for top footer (div with row class)
-    echo "<div class='row' style='background-color: ".$footer_bg."; color:". $footer_txt."; '>";
-
-    // inside row, get sidebar 'top-footer-sidebar'
-    if(is_active_sidebar('top-footer-sidebar')):
+    <!--automatic footer user will have control on the amount of columns-->
+    <?php
+      $footer_rows = get_theme_mod('custom_footer_row_count','1');
+      // if footer_rows = 2
+      if($footer_rows == 2){
       
+        // build html structure for top footer (div with row class)
+        echo "<div class='row' class='top-footer-row' style='background-color: ".$footer_bg."; color:". $footer_txt."; '>";
 
-        echo" <div class='col'>";
-        if(is_active_sidebar('top-footer-sidebar')){
-          dynamic_sidebar('top-footer-sidebar');
-        }
-        echo "</div>";
-   
-      endif;
-      echo "</div>";
-  }
+        // inside row, get sidebar 'top-footer-sidebar'
+        if(is_active_sidebar('top-footer-sidebar')):
+          
 
-?>
+            echo" <div class='col'class='top-footer-row' style = '    text-align: -webkit-center;'>";
+            if(is_active_sidebar('top-footer-sidebar')){
+              dynamic_sidebar('top-footer-sidebar');
+            }
+            echo "</div>";
+      
+          endif;
+          echo "</div>";
+      }
+
+    ?>
 
 </div>
 <div class="row" style="background-color: <?php echo $footer_bg; ?>;color:<?php echo $footer_txt; ?>; ">

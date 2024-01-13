@@ -35,8 +35,9 @@ firstTheme is distributed under the terms of the GNU GPL.
 }
 
 .mid-content {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+
 }
 
 #header-main-menu{
@@ -125,3 +126,27 @@ figure.rounded img{
     border-radius: inherit;
 }
 
+.top-footer-row{
+    column-gap: 115px;
+    white-space: nowrap;
+    text-align: -webkit-center;
+}
+#footer-top{
+
+    white-space: nowrap;
+}
+
+.menu-main-container{
+    padding-right: 25px;
+}
+
+/*RESPONSIVESS*/
+
+@media only screen and (max-width: 600px) {
+    .mid-content {
+        padding-bottom: 5%;
+    }
+    .nav-2{
+        margin-left: 6%;
+    }
+  }
