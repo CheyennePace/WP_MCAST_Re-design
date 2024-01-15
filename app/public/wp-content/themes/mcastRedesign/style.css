@@ -80,7 +80,9 @@ ul.menu li.menu-item-has-children:hover > ul.sub-menu{
     color: #000043;
     padding-right: 2% ;
     z-index: 1;
+    
 }
+
 
 /* content for all body (all pages) */
 .container-body {
@@ -131,9 +133,12 @@ figure.rounded img{
     white-space: nowrap;
     text-align: -webkit-center;
 }
-#footer-top{
-
+#footer-top{  
     white-space: nowrap;
+}
+
+.footer-bot{
+    text-align: -webkit-center;
 }
 
 .menu-main-container{
@@ -142,11 +147,105 @@ figure.rounded img{
 
 /*RESPONSIVESS*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .mid-content {
         padding-bottom: 5%;
     }
     .nav-2{
         margin-left: 6%;
     }
+
+    .header1{
+        font-size: 24px !important;
+        
+    }
+
+    figure.header1 h1{
+        font-size: inherit;
+    }
+
+    .prodMenuImg{
+        display: flex;
+        align-content: space-between !important;
+        justify-content: center !important;
+        /* margin: 20px auto; */
+        width: 400px;
+        height: 400px;
+        display: grid !important;
+        grid-template-columns: 150px 150px !important;
+        grid-row: auto auto !important;
+        /* grid-column-gap: 20px; */
+        grid-row-gap: 20px !important;
+    }
+
+    figure.prodMenuImg {
+        display: inherit;
+        align-content: inherit;
+        width: inherit;
+        height: inherit;
+        display: inherit;
+        grid-template-columns: inherit;
+        grid-row-gap: inherit;
+        grid-row:inherit;
+    }
+
+    .footerSocialIcons{
+        display: flex;
+        width: 304px;
+        display: grid !important;
+        grid-template-columns: 60px 60px 60px !important;
+        grid-row: auto auto !important;
+        grid-row-gap: 20px !important;
+    }
+
+    figure.footerSocialIcons{
+        display: inherit;
+        width: inherit;
+        grid-template-columns: inherit;
+        grid-row: inherit;
+        grid-row-gap: inherit;
+    }
+
+    .footerBottom{
+        text-wrap: nowrap !important;
+        text-align: center !important;
+        row-gap: 32px !important;
+    }
+
+    figure.footerBottom {
+        text-wrap: inherit;
+        text-align: inherit;
+        row-gap: inherit;
+    }
+    .header4{
+        font-size: 16px !important;
+        
+    }
+    
+    figure.header4 h4{
+        font-size: inherit;
+    }
+    .parg{
+        font-size: 14px !important;
+        
+    }
+    
+    figure.parg p{
+        font-size: inherit;
+    }
+    .header5{
+        font-size: 18px !important;
+        
+    }
+    
+    figure.header5 h5{
+        font-size: inherit;
+    }
+    .buttonInline{
+        inline-size: max-content !important;
+    }
+    figure.buttonInline a{
+        inline-size: inherit;
+    }
   }
+  
