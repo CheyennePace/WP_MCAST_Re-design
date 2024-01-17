@@ -72,23 +72,32 @@ As for the plugins section, there are numerous plugins used such as;
 <br>
 Wp Dummy Content Generator -> This plugin was only used to create dummy posts to reduce the effort of having to create them one by one. However, the posts were later reviewed and amended accordingly, therefore the content that is currently shown is relevant to the website.
 <br>
+<br>
 Wordpress Books Library -> This library was set as a database for the library system. Books were added using this plugin and styled properly through the plugin's CSS. The plugin also had an in-built search which displays the books inside the same page.
+<br>
 <br>
 The Icon Block -> This icon was used to better handle iconography is some pages.
 <br>
+<br>
 The Events Calendar -> This plugin enabled me to display a well-formatted calendar giving the user the option to display, list, daily and monthly as well as search specific events.
+<br>
 <br>
 Responsive Accordion And Collapse -> This plugin enables the functionality of Frequently Asked Questions (FAQS) accordion. Therefore, this plugin is being used in some pages to display the FAQs to the user.
 <br>
+<br>
 Featured Image from URL (FIFU) -> This plugin was briefly used to display thumbnails of the pages/posts. This was primarily used to enable easy recognition amongst a chuck of text, due to having a small image on the side.
+<br>
 <br>
 Elementor -> This plugin was tested, however barely used. I decided to leave this only on one page, in case the user is already accustomed to it, they will know that they have the possibility of using it.
 <br>
-Copy&Delete Posts -> This plugin was used to enable page duplication
 <br>
+Copy&Delete Posts -> This plugin was used to enable page duplication
+<br><br>
 Cards for Beaver alongside Beaver Builder -> These two plugins were used in conjunction to add cards to the courses page. However, the user can also make use of this plugin similarly to the Elementor plugin.
 <br>
+<br>
 Blog Designer Pack -> This plugin was used to create the news grid, style it and add the shortcode to the page on which you would like the news to be displayed.
+<br>
 <br>
 All-in-one WP Migration -> WAs used for export & import
 <br>
