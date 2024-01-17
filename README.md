@@ -2,9 +2,9 @@
 This theme is designed to provide users with the flexibility to customize and adapt the template for their educational websites. With comprehensive accessibility features and robust customization options, this theme can be tailored to meet the unique needs of clients.
 
 <h2>Link to Import</h2>
-[a link] mcastredesign.local-20240117-215314-d9rso1.wpress
+ mcastredesign.local-20240117-215314-d9rso1.wpress
 
-<h2>Pages</h2>
+<h2>VsCode</h2>
  footer.php  -> On this page you will find the entire footer. You will find two sets of footers 'footer-top' and 'footer-bottom'.
  This page uses variables such as 'get-theme-mod'  which can be found on the custimize.php page. Everything that is set on this page is set to default in the WordPress customizer. 
  <br>
@@ -63,6 +63,32 @@ This theme is designed to provide users with the flexibility to customize and ad
  <br> bootstrap.js  -> Original bootstrap file
 <br> 
 
-<h2>Posts</h2>
-
+<h2>WP Posts</h2>
+<br>
+Over here, one can add more courses and link them accordingly in either the 'Full-time', 'Part-time' or the 'Masters' courses found on WP pages. The rest of the posts are news templates, that are shown on the the news page (found in the footer) and there is also the possibility of having  a snippet of the latest news on the homepage. 
+<br>
 <h2>Plugins</h2>
+As for the plugins section, there are numerous plugins used such as;
+<br>
+Wp Dummy Content Generator -> This plugin was only used to create dummy posts to reduce the effort of having to create them one by one. However, the posts were later reviewed and amended accordingly, therefore the content that is currently shown is relevant to the website.
+<br>
+Wordpress Books Library -> This library was set as a database for the library system. Books were added using this plugin and styled properly through the plugin's CSS. The plugin also had an in-built search which displays the books inside the same page.
+<br>
+The Icon Block -> This icon was used to better handle iconography is some pages.
+<br>
+The Events Calendar -> This plugin enabled me to display a well-formatted calendar giving the user the option to display, list, daily and monthly as well as search specific events.
+<br>
+Responsive Accordion And Collapse -> This plugin enables the functionality of Frequently Asked Questions (FAQS) accordion. Therefore, this plugin is being used in some pages to display the FAQs to the user.
+<br>
+Featured Image from URL (FIFU) -> This plugin was briefly used to display thumbnails of the pages/posts. This was primarily used to enable easy recognition amongst a chuck of text, due to having a small image on the side.
+<br>
+Elementor -> This plugin was tested, however barely used. I decided to leave this only on one page, in case the user is already accustomed to it, they will know that they have the possibility of using it.
+<br>
+Copy&Delete Posts -> This plugin was used to enable page duplication
+<br>
+Cards for Beaver alongside Beaver Builder -> These two plugins were used in conjunction to add cards to the courses page. However, the user can also make use of this plugin similarly to the Elementor plugin.
+<br>
+Blog Designer Pack -> This plugin was used to create the news grid, style it and add the shortcode to the page on which you would like the news to be displayed.
+<br>
+All-in-one WP Migration -> WAs used for export & import
+<br>
