@@ -17,33 +17,47 @@ This theme is designed to provide users with the flexibility to customize and ad
  <br> 
  <br> search.php  -> This page is where the search results are going to be dumped. 
  <br>
- <br> sidebar-first-footer.php  ->
- <br> sidebar-fourth-footer.php  ->
- <br> sidebar-second-footer.php  ->
- <br> sidebar-second.php  ->
- <br> sidebar-third-footer.php  ->
- <br> sidebar.php  ->
- <br> style.css
+ <br> sidebar-first-footer.php  -> This page gives the user accessibility to add more things to the footer (i.e icons, text, sub-links etc). Anything in footer 1 will be displayed in the first column of the footer.
+ <br>
+ <br> sidebar-fourth-footer.php  ->This page gives the user accessibility to add more things to the footer (i.e icons, text, sub-links etc). Anything in footer 4 will be displayed in the fourth column of the footer.
+ <br>
+ <br> sidebar-second-footer.php  ->This page gives the user accessibility to add more things to the footer (i.e icons, text, sub-links etc). Anything in footer 2 will be displayed in the second column of the footer.
+ <br>
+ <br> sidebar-second.php  -> This page is there in case the user would like to make use of a sidebar. (Set more for future improvements)
+ <br>
+ <br> sidebar-third-footer.php  ->This page gives the user accessibility to add more things to the footer (i.e icons, text, sub-links etc). Anything in footer 3 will be displayed in the first third of the footer.
+ <br>
+ <br> sidebar.php  -> This page is there in case the user would like to make use of a sidebar. (Set more for future improvements)
+<br> 
+
+ <br> style.css  -> This is where most of the styling options are taking place. most of the code is titled accordingly. At the end of the document, one can find hard-coded values of some of the elements that look disproportionate in mobile view. The name of the class can be used on the page of WordPress under CSS attributes. Upon writing the name of that class, the user should see the hard-coded styling added. 
 <br> 
  <br> Folder in template-parts
- <br> content-page.php  ->
- <br> content-search.php  ->
- <br> content.php  ->
- <br> loop-search.php  ->
- <br> loop.php  ->
+ <br> content-page.php  -> This page holds the entire content
+ <br> 
+ <br> content-search.php  -> This page holds the style in which the search page is going to display them. therefore certain styling has to be through this page.
+ <br> 
+ <br> content.php  -> This page holds the same behaviour as the 'content-search.php' page. However, this page does not have the same styling options.
+ <br>
+ <br> loop-search.php  -> This page is where the 'content-search' page is going to be retrieved inside of a loop. This page is called out in the 'search.php' page. Pagination is also included in case there are a lot of results. If, no posts/results were found a p tag saying 'sorry, no posts found' will be displayed to the user.
+ <br> 
+ <br> loop.php  -> This page holds the same behaviour as the 'loop-search.php'. The only difference is that this will load from 'content.php'. Therefore, this will load any required posts on top of the hard-coded ones.
 <br> 
  <br> Folder in lib
- <br> customize.php  ->
- <br> enqueue-assests.php ->
- <br> naviagtion.php  ->
- <br> sidebars.php  ->
+ <br> customize.php  -> On this page, one can come across functions, that are set to ease the life of a client. This is where the footer, header and any posts/pages that require images are set. Starting with the footer, the client can customize through WordPress Customizer the background colour, the font colour, the number of columns and the number of rows. These can also be amended in the widget section of WordPress. The header has the same functionality, without the option of personalising rows and columns. Images are set similarly. and can also be customizable in the Customizer page of WordPress.
+ <br> 
+ <br> enqueue-assests.php -> This is the page where the css and js files were set to a specific location.
+ <br>
+ <br> naviagtion.php  -> This is the page where 2 menus were registered (i.e. Main menu which is the header and the footer menu)
+ <br>
+ <br> sidebars.php  -> This is the page were all the sidebars are declared and shown in the widgets section on WordPress.
 <br> 
  <br> Folders in assets
  <br> -Sub folder CSS
- <br> bootstrap.ss  ->
- <br> wpcore.css  ->
+ <br> bootstrap.ss  -> Original bootstrap file with minor alterations to shape the template better.
+ <br> wpcore.css  -> Default WP css
  <br> -Sub folder JS
- <br> bootstrap.js
+ <br> bootstrap.js  -> Original bootstrap file
 <br> 
 
 <h2>Posts</h2>
