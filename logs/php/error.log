@@ -2031,3 +2031,39 @@ Stack trace:
 [15-Jan-2024 23:32:29 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
 [15-Jan-2024 23:35:19 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
 [15-Jan-2024 23:37:04 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[16-Jan-2024 21:59:09 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[16-Jan-2024 22:03:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\search.php:9
+Stack trace:
+#0 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-includes\template-loader.php(106): include()
+#1 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-blog-header.php(19): require_once('D:\\BAs Interact...')
+#2 D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\index.php(17): require('D:\\BAs Interact...')
+#3 {main}
+  thrown in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\search.php on line 9
+[16-Jan-2024 22:07:34 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:37:12 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:37:40 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:38:06 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:38:07 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:38:48 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:38:52 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:38:58 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:53:06 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:53:30 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:54:20 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:55:08 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 07:59:09 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:12:43 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:13:35 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:13:48 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:15:32 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:15:51 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:19:00 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:20:01 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:20:23 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:20:48 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:21:56 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:22:13 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:35:49 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:37:13 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:49:32 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
+[17-Jan-2024 08:56:22 UTC] PHP Warning:  Undefined variable $banner_img_3 in D:\BAs Interactive Media\3rd yr\Wordpress_Assignment\WP_MCAST_Re-design\app\public\wp-content\themes\mcastRedesign\front-page.php on line 24
