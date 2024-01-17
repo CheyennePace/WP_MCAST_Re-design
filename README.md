@@ -1,6 +1,9 @@
 <h2>Welcome!</h2> 
 This theme is designed to provide users with the flexibility to customize and adapt the template for their educational websites. With comprehensive accessibility features and robust customization options, this theme can be tailored to meet the unique needs of clients.
 
+<h2>Link to Import</h2>
+[a link] mcastredesign.local-20240117-215314-d9rso1.wpress
+
 <h2>Pages</h2>
  footer.php  -> On this page you will find the entire footer. You will find two sets of footers 'footer-top' and 'footer-bottom'.
  This page uses variables such as 'get-theme-mod'  which can be found on the custimize.php page. Everything that is set on this page is set to default in the WordPress customizer. 
