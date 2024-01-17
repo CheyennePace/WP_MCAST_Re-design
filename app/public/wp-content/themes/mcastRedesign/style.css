@@ -18,7 +18,7 @@ Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, 
 firstTheme WordPress Theme, (C) 2020 WordPress.org
 firstTheme is distributed under the terms of the GNU GPL.
 
-DESCRIPTION
+===THEME DESCRIPTION===
 
 This theme is designed exclusively for educational websites, aiming to showcase your school with flair. Crafted with precision, our theme is dedicated to enhancing user experience, ensuring efficiency for all users, whether they're students, parents, or teachers.
 
@@ -142,7 +142,7 @@ ul.menu li.menu-item-has-children:hover > ul.sub-menu{
 
 /*Search field*/
 
-
+/*--CSS tag for WP- images to be rounded-*/
 .rounded {
     border-radius: 15px !important;
     padding-right: 15px;
@@ -151,7 +151,7 @@ ul.menu li.menu-item-has-children:hover > ul.sub-menu{
 figure.rounded img{
     border-radius: inherit;
 }
-
+/* ---- */
 .top-footer-row{
     column-gap: 115px;
     white-space: nowrap;
@@ -179,6 +179,7 @@ figure.rounded img{
         margin-left: 6%;
     }
 
+    /*--CSS tag for WP- headers to be set with this font size in case for mobile-*/
     .header1{
         font-size: 24px !important;
         
@@ -187,7 +188,8 @@ figure.rounded img{
     figure.header1 h1{
         font-size: inherit;
     }
-
+    /* ------*/
+    /*--CSS tag for WP- images in the grid-*/
     .prodMenuImg{
         display: flex;
         align-content: space-between !important;
@@ -213,6 +215,7 @@ figure.rounded img{
         grid-row:inherit;
     }
 
+    /*--CSS tag for WP- icons, currently used in footer to reduce size-*/
     .footerSocialIcons{
         display: flex;
         width: 304px;
@@ -230,6 +233,7 @@ figure.rounded img{
         grid-row-gap: inherit;
     }
 
+    /*--CSS tag for WP- footer to be more responsive-*/
     .footerBottom{
         text-wrap: nowrap !important;
         text-align: center !important;
@@ -241,6 +245,7 @@ figure.rounded img{
         text-align: inherit;
         row-gap: inherit;
     }
+    /*--CSS tag for WP- header4 to take this size on mobile only*/
     .header4{
         font-size: 16px !important;
         
@@ -249,6 +254,8 @@ figure.rounded img{
     figure.header4 h4{
         font-size: inherit;
     }
+        /*--CSS tag for WP- paragraphs to take this size on mobile only*/
+
     .parg{
         font-size: 14px !important;
         
@@ -257,6 +264,8 @@ figure.rounded img{
     figure.parg p{
         font-size: inherit;
     }
+        /*--CSS tag for WP- header5 to take this size on mobile only*/
+
     .header5{
         font-size: 18px !important;
         
@@ -265,6 +274,9 @@ figure.rounded img{
     figure.header5 h5{
         font-size: inherit;
     }
+
+        /*--CSS tag for WP-burrons incase they are not in line when checking responsiveness*/
+
     .buttonInline{
         inline-size: max-content !important;
     }
