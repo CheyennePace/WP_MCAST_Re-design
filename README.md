@@ -7,6 +7,8 @@ This theme is designed to provide users with the flexibility to customize and ad
 <h2>VsCode</h2>
  footer.php  -> On this page you will find the entire footer. You will find two sets of footers 'footer-top' and 'footer-bottom'.
  This page uses variables such as 'get-theme-mod'  which can be found on the custimize.php page. Everything that is set on this page is set to default in the WordPress customizer. 
+ ![image](https://github.com/CheyennePace/WP_MCAST_Re-design/assets/56068119/5d13799d-2783-414b-bb0b-fcde71973ccb)
+
  <br>
 <br> front-page.php  -> This page is used to add to more things which are found on the homepage. Over here is where the carousel is defined so the client can benefit from customizing the images from the customizer page on WordPress. The same customizer tags/variables that were used in the 'footer.php' are used here, the only difference being that the footer customizers were for font and background colour, whilst this is set for images. Beneath this section a loop is called  inside of a container, this is to display the things that are set from the client in the homepage. Therefore, if the client wishes to add anything else to this page apart from the carousel, they can fully do so by editing the page on WordPress. 
 <br>
